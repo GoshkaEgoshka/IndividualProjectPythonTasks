@@ -20,7 +20,7 @@ class NotLessThanZero(Valid):
 
 class LessThanMillion(Valid):
     def validation(self, value: Any) -> bool:
-        return value <= 999999
+        return value <= 999_999
 
 
 class AllValidation(Valid):

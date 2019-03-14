@@ -33,5 +33,3 @@ class InputCache(Input):
         if not self._data:
             self._data.append(self._ask.value())
         return self._data[0]
-
-
